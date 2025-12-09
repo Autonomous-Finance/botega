@@ -1,0 +1,28 @@
+.idea
+process.wasm
+process.js
+node_modules
+process_bundled.lua
+commands.lua
+build-lua
+
+
+state-processes.dev.yaml
+processes.dev.yaml
+
+
+build
+build-lua
+
+*/.DS_Store
+
+# Keys and sensitive files
+keys/
+
+# Local databases
+local.sqlite
+localsqlite/
+
+# Scratch/test files
+test.md
+Subscribe.md

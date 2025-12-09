@@ -1,0 +1,26 @@
+# - name: factory
+#   file: build/factory.lua
+#   scheduler: _GQ33BkPtZrqxA84vM8Zk-N2aO0toNNu_C-l-rawrBA
+#   module: SBNb1qPQ1TDwpD_mboxm2YllmMLXpWw4U8P9Ff8W9vk
+
+- name: Bark-Amm-Factory-2.0
+  file: build/factory.lua
+  scheduler: _GQ33BkPtZrqxA84vM8Zk-N2aO0toNNu_C-l-rawrBA
+  module: G991Xp6Kh28k8_AZcnwaqJ6LZcHlsZcMkrH1mJoAy84
+  tags:
+    - name: Authority
+      value: fcoN_xJeisVsPXA-trzVAuIiqO3ydLQxM-L4XbrQKzY
+
+- name: amm-factory-cache
+  file: factory-cache-process.lua
+  scheduler: _GQ33BkPtZrqxA84vM8Zk-N2aO0toNNu_C-l-rawrBA
+  module: EAIJew2R7aptjpyn7TD7S7ldVW4cTpUhZCaMvcerfWc
+  tags:
+    - name: Name
+      value: amm-factory-cache
+    - name: Authority
+      value: fcoN_xJeisVsPXA-trzVAuIiqO3ydLQxM-L4XbrQKzY
+    - name: Operator
+      value: LjFZGDae9yM-yOj0Ei7ex0xy3Zdrbn8jo-7ZqVLT19E
+    - name: AmmFactory-Process
+      value: 3XBGLrygs11K63F_7mldWz4veNx6Llg6hI2yZs8LKHo

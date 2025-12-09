@@ -1,0 +1,33 @@
+- name: Bark-Amm-Factory-staging-2.0
+  file: build/factory.lua
+  scheduler: _GQ33BkPtZrqxA84vM8Zk-N2aO0toNNu_C-l-rawrBA
+  module: G991Xp6Kh28k8_AZcnwaqJ6LZcHlsZcMkrH1mJoAy84
+  tags:
+    - name: Authority
+      value: fcoN_xJeisVsPXA-trzVAuIiqO3ydLQxM-L4XbrQKzY
+    - name: Operator
+      value: LjFZGDae9yM-yOj0Ei7ex0xy3Zdrbn8jo-7ZqVLT19E
+
+- name: BOTEGA-AMM-FACTORY-STAGING-2
+  file: build/factory.lua
+  scheduler: _GQ33BkPtZrqxA84vM8Zk-N2aO0toNNu_C-l-rawrBA
+  module: JArYBF-D8q2OmZ4Mok00sD2Y_6SYEQ7Hjx-6VZ_jl3g
+  tags:
+    - name: Authority
+      value: fcoN_xJeisVsPXA-trzVAuIiqO3ydLQxM-L4XbrQKzY
+    - name: Operator
+      value: LjFZGDae9yM-yOj0Ei7ex0xy3Zdrbn8jo-7ZqVLT19E
+
+- name: botega-hb-cache-staging
+  file: factory-cache-process.lua
+  scheduler: _GQ33BkPtZrqxA84vM8Zk-N2aO0toNNu_C-l-rawrBA
+  module: EAIJew2R7aptjpyn7TD7S7ldVW4cTpUhZCaMvcerfWc
+  tags:
+    - name: Name
+      value: botega-hb-cache-staging
+    - name: Authority
+      value: fcoN_xJeisVsPXA-trzVAuIiqO3ydLQxM-L4XbrQKzY
+    - name: Operator
+      value: LjFZGDae9yM-yOj0Ei7ex0xy3Zdrbn8jo-7ZqVLT19E
+    - name: AmmFactory-Process
+      value: 50U3BcLrRF2Bq51eeJdVdoMzrQMgjCeVai7LWY4Wm_s

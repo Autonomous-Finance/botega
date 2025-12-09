@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "bash ./scripts/build.sh",
+    "deploy-dev": "bash ./scripts/deploy.sh",
+    "test-pool": "bash ./scripts/test-pool.sh",
+    "test-factory": "bash ./scripts/test-factory.sh",
+    "test": "npm run test-pool && npm run test-factory"
+  },
+  "devDependencies": {
+    "aoform": "^1.0.7"
+  },
+  "type": "module"
+}

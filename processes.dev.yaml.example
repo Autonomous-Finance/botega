@@ -1,0 +1,15 @@
+- name: factory
+  file: build/factory.lua
+  scheduler: _GQ33BkPtZrqxA84vM8Zk-N2aO0toNNu_C-l-rawrBA
+  module: SBNb1qPQ1TDwpD_mboxm2YllmMLXpWw4U8P9Ff8W9vk
+
+
+- name: mockAMM
+  file: build/amm.lua
+  scheduler: _GQ33BkPtZrqxA84vM8Zk-N2aO0toNNu_C-l-rawrBA
+  module: SBNb1qPQ1TDwpD_mboxm2YllmMLXpWw4U8P9Ff8W9vk
+  tags:
+    - name: Token-A
+      value: D_VmdEhqrAzGVVwUPO7Cngf9HIAxeZCvuGGApWQ3hB8
+    - name: Token-B
+      value: j7w28CJQHYwamMsotkhE7x0aVUggGwrBtdO5-MQ80uU
